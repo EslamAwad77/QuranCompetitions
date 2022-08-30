@@ -724,10 +724,10 @@
         <image name="faceIcon" width="22" height="22"/>
         <image name="googleIcon" width="22" height="22"/>
         <namedColor name="ButtonColor">
-            <color red="0.21568627450980393" green="0.72156862745098038" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.21600000560283661" green="0.72200000286102295" blue="0.60000002384185791" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="textColor">
-            <color red="0.047058823529411764" green="0.50196078431372548" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.046999998390674591" green="0.50199997425079346" blue="0.3919999897480011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

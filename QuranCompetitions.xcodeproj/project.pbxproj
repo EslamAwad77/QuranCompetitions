@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A85C49F728BE5F7300764873 /* PersonalPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C49F628BE5F7300764873 /* PersonalPageVC.swift */; };
+		A85C49F928BE5FDE00764873 /* PersonalPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C49F828BE5FDE00764873 /* PersonalPageController.swift */; };
+		A85C49FB28BE603700764873 /* UpdatePersonalPageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C49FA28BE603700764873 /* UpdatePersonalPageVC.swift */; };
+		A85C49FD28BE60D900764873 /* UpdatePersonalPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A85C49FC28BE60D900764873 /* UpdatePersonalPageController.swift */; };
 		A87D7D2528BBC71E001DA0AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87D7D2428BBC71E001DA0AD /* AppDelegate.swift */; };
 		A87D7D2728BBC71E001DA0AD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87D7D2628BBC71E001DA0AD /* SceneDelegate.swift */; };
 		A87D7D2928BBC71E001DA0AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87D7D2828BBC71E001DA0AD /* ViewController.swift */; };
@@ -30,9 +34,14 @@
 		A87D7D7128BC53EC001DA0AD /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A87D7D7028BC53EC001DA0AD /* Home.storyboard */; };
 		A87D7D7628BC543D001DA0AD /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87D7D7528BC543D001DA0AD /* HomeController.swift */; };
 		A87D7D7828BC5454001DA0AD /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A87D7D7728BC5454001DA0AD /* HomeVC.swift */; };
+		C5526F6FA234E5B1A7DB6239 /* Pods_QuranCompetitions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC5CDF9F62005DDEF7CD53DF /* Pods_QuranCompetitions.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A85C49F628BE5F7300764873 /* PersonalPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalPageVC.swift; sourceTree = "<group>"; };
+		A85C49F828BE5FDE00764873 /* PersonalPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalPageController.swift; sourceTree = "<group>"; };
+		A85C49FA28BE603700764873 /* UpdatePersonalPageVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePersonalPageVC.swift; sourceTree = "<group>"; };
+		A85C49FC28BE60D900764873 /* UpdatePersonalPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePersonalPageController.swift; sourceTree = "<group>"; };
 		A87D7D2128BBC71E001DA0AD /* QuranCompetitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuranCompetitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A87D7D2428BBC71E001DA0AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A87D7D2628BBC71E001DA0AD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +67,9 @@
 		A87D7D7028BC53EC001DA0AD /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
 		A87D7D7528BC543D001DA0AD /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		A87D7D7728BC5454001DA0AD /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		C7F4EF084663FC4A09089091 /* Pods-QuranCompetitions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuranCompetitions.debug.xcconfig"; path = "Target Support Files/Pods-QuranCompetitions/Pods-QuranCompetitions.debug.xcconfig"; sourceTree = "<group>"; };
+		DC5CDF9F62005DDEF7CD53DF /* Pods_QuranCompetitions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QuranCompetitions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01AE73307818C93CDEECC5B /* Pods-QuranCompetitions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QuranCompetitions.release.xcconfig"; path = "Target Support Files/Pods-QuranCompetitions/Pods-QuranCompetitions.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,17 +77,80 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5526F6FA234E5B1A7DB6239 /* Pods_QuranCompetitions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A85C49EF28BE5EEC00764873 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A87D7D7428BC5429001DA0AD /* View */,
+				A87D7D7328BC5422001DA0AD /* Controller */,
+			);
+			name = Home;
+			path = "آخوث";
+			sourceTree = "<group>";
+		};
+		A85C49F028BE5F0100764873 /* Personal Page */ = {
+			isa = PBXGroup;
+			children = (
+				A85C49F228BE5F3B00764873 /* View */,
+				A85C49F128BE5F0E00764873 /* Controller */,
+			);
+			path = "Personal Page";
+			sourceTree = "<group>";
+		};
+		A85C49F128BE5F0E00764873 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A85C49F828BE5FDE00764873 /* PersonalPageController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A85C49F228BE5F3B00764873 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A85C49F628BE5F7300764873 /* PersonalPageVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A85C49F328BE5F4500764873 /* Update Personal Page */ = {
+			isa = PBXGroup;
+			children = (
+				A85C49F528BE5F5A00764873 /* View */,
+				A85C49F428BE5F5300764873 /* Controller */,
+			);
+			path = "Update Personal Page";
+			sourceTree = "<group>";
+		};
+		A85C49F428BE5F5300764873 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A85C49FC28BE60D900764873 /* UpdatePersonalPageController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A85C49F528BE5F5A00764873 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A85C49FA28BE603700764873 /* UpdatePersonalPageVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		A87D7D1828BBC71E001DA0AD = {
 			isa = PBXGroup;
 			children = (
 				A87D7D2328BBC71E001DA0AD /* QuranCompetitions */,
 				A87D7D2228BBC71E001DA0AD /* Products */,
+				CCB013FCBEF1F5160E9E89A6 /* Pods */,
+				E6F976C4FB9A5CEA716A5F00 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -304,8 +379,9 @@
 		A87D7D7228BC5404001DA0AD /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				A87D7D7428BC5429001DA0AD /* View */,
-				A87D7D7328BC5422001DA0AD /* Controller */,
+				A85C49EF28BE5EEC00764873 /* Home */,
+				A85C49F328BE5F4500764873 /* Update Personal Page */,
+				A85C49F028BE5F0100764873 /* Personal Page */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -326,6 +402,24 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		CCB013FCBEF1F5160E9E89A6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7F4EF084663FC4A09089091 /* Pods-QuranCompetitions.debug.xcconfig */,
+				F01AE73307818C93CDEECC5B /* Pods-QuranCompetitions.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E6F976C4FB9A5CEA716A5F00 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC5CDF9F62005DDEF7CD53DF /* Pods_QuranCompetitions.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -333,9 +427,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A87D7D3828BBC71E001DA0AD /* Build configuration list for PBXNativeTarget "QuranCompetitions" */;
 			buildPhases = (
+				AA7A74BEB02E022E69EDBABD /* [CP] Check Pods Manifest.lock */,
 				A87D7D1D28BBC71E001DA0AD /* Sources */,
 				A87D7D1E28BBC71E001DA0AD /* Frameworks */,
 				A87D7D1F28BBC71E001DA0AD /* Resources */,
+				715943DDA8D2F257786713B5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -395,14 +491,58 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		715943DDA8D2F257786713B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuranCompetitions/Pods-QuranCompetitions-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QuranCompetitions/Pods-QuranCompetitions-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QuranCompetitions/Pods-QuranCompetitions-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA7A74BEB02E022E69EDBABD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QuranCompetitions-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A87D7D1D28BBC71E001DA0AD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A85C49FD28BE60D900764873 /* UpdatePersonalPageController.swift in Sources */,
 				A87D7D6F28BC4E61001DA0AD /* UpdatePassVC.swift in Sources */,
 				A87D7D5D28BBE9D3001DA0AD /* LoginController.swift in Sources */,
 				A87D7D5528BBE92B001DA0AD /* UIImgView.swift in Sources */,
+				A85C49FB28BE603700764873 /* UpdatePersonalPageVC.swift in Sources */,
 				A87D7D5F28BBE9EB001DA0AD /* LoginVC.swift in Sources */,
 				A87D7D5328BBE911001DA0AD /* UIView.swift in Sources */,
 				A87D7D7828BC5454001DA0AD /* HomeVC.swift in Sources */,
@@ -415,8 +555,10 @@
 				A87D7D6828BBF006001DA0AD /* BackgroundView.swift in Sources */,
 				A87D7D7628BC543D001DA0AD /* HomeController.swift in Sources */,
 				A87D7D4E28BBD092001DA0AD /* RegisterVC.swift in Sources */,
+				A85C49F728BE5F7300764873 /* PersonalPageVC.swift in Sources */,
 				A87D7D2728BBC71E001DA0AD /* SceneDelegate.swift in Sources */,
 				A87D7D2F28BBC71E001DA0AD /* QuranCompetitions.xcdatamodeld in Sources */,
+				A85C49F928BE5FDE00764873 /* PersonalPageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,6 +700,7 @@
 		};
 		A87D7D3928BBC71E001DA0AD /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7F4EF084663FC4A09089091 /* Pods-QuranCompetitions.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -568,7 +711,7 @@
 				INFOPLIST_FILE = QuranCompetitions/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Auth;
+				INFOPLIST_KEY_UIMainStoryboardFile = Home;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
@@ -587,6 +730,7 @@
 		};
 		A87D7D3A28BBC71E001DA0AD /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F01AE73307818C93CDEECC5B /* Pods-QuranCompetitions.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -597,7 +741,7 @@
 				INFOPLIST_FILE = QuranCompetitions/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Auth;
+				INFOPLIST_KEY_UIMainStoryboardFile = Home;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;

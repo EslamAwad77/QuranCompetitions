@@ -7,11 +7,9 @@
 
 import UIKit
 
-
-class BackgroundView: UIView{
+class defSideMenuView: UIView{
     
     //TODO: life cycle of view
-    
     override init(frame: CGRect) {
         super.init(frame: frame)
         configureView()
@@ -23,7 +21,7 @@ class BackgroundView: UIView{
     }
     
     func configureView(){
-        guard let view = self.loadViewFromNib(nibName: Config.Nibs.background) else { return }
+        guard let view = self.loadViewFromNib(nibName: Config.Nibs.defaultSideMenu) else { return }
         view.frame = self.bounds
         self.addSubview(view)
     }

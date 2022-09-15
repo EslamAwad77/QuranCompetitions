@@ -15,7 +15,13 @@ struct Config {
     }
     
     struct Nibs{
-        static let background = "BackgroundView"
+        static let previousResult = "PreviousResultsCell"
+        static let circleProgBar = "CircleView"
+        static let defSideMenu = "DefSideMenuCell"
+        static let defaultSideMenu = "defSideMenuView"
+        static let contentSideMenu = "ContentSideMenuCell"
+        static let competitionLevel = "CompetitionLevelCell"
+
     }
     
     struct ViewController {
@@ -24,5 +30,9 @@ struct Config {
         static let updatePass = "UpdatePassVC"
         static let home = "HomeVC"
         static let personalPage = "PersonalPageVC"
+        static let updatePersonalPage = "UpdatePersonalPageVC"
+        static let aboutApp = "AboutAppVC"
+        static let fail = "FailVC"
+        static let success = "SuccessVC"
     }
 }

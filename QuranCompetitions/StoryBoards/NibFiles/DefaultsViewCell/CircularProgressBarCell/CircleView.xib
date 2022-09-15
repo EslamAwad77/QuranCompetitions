@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CircleView" customModule="QuranCompetitions" customModuleProvider="target">
+            <connections>
+                <outlet property="lblPrecent" destination="0Fp-NT-3cu" id="usT-bq-Juj"/>
+                <outlet property="lblTitleOfView" destination="7M9-hV-5uV" id="Vgj-j9-iqB"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="172" height="130"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7uK-kC-fuL">
+                    <rect key="frame" x="0.0" y="0.0" width="172" height="130"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ImageProgressBar" translatesAutoresizingMaskIntoConstraints="NO" id="zL0-dw-Rgn">
+                            <rect key="frame" x="0.0" y="0.0" width="172" height="130"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRaduis">
+                                    <real key="value" value="15"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="100%" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Fp-NT-3cu">
+                            <rect key="frame" x="62" y="40" width="49" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="0.047058823529411764" green="0.50196078431372548" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="التقيم العام" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7M9-hV-5uV">
+                            <rect key="frame" x="41" y="88" width="90" height="21"/>
+                            <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="14"/>
+                            <color key="textColor" red="0.047058823529411764" green="0.50196078431372548" blue="0.39215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="7M9-hV-5uV" firstAttribute="top" secondItem="0Fp-NT-3cu" secondAttribute="bottom" constant="27.5" id="1K6-HJ-8ti"/>
+                        <constraint firstItem="0Fp-NT-3cu" firstAttribute="top" secondItem="7uK-kC-fuL" secondAttribute="top" constant="40" id="5qS-49-Zib"/>
+                        <constraint firstAttribute="trailing" secondItem="0Fp-NT-3cu" secondAttribute="trailing" constant="61" id="6CF-y8-I0Q"/>
+                        <constraint firstAttribute="bottom" secondItem="zL0-dw-Rgn" secondAttribute="bottom" id="ByT-89-agG"/>
+                        <constraint firstItem="zL0-dw-Rgn" firstAttribute="top" secondItem="7uK-kC-fuL" secondAttribute="top" id="Dvh-0L-5tC"/>
+                        <constraint firstAttribute="trailing" secondItem="7M9-hV-5uV" secondAttribute="trailing" constant="41" id="OEi-Iv-O86"/>
+                        <constraint firstAttribute="bottom" secondItem="7M9-hV-5uV" secondAttribute="bottom" constant="21" id="OqG-rt-kls"/>
+                        <constraint firstItem="zL0-dw-Rgn" firstAttribute="leading" secondItem="7uK-kC-fuL" secondAttribute="leading" id="Qzi-Fg-32U"/>
+                        <constraint firstItem="7M9-hV-5uV" firstAttribute="leading" secondItem="7uK-kC-fuL" secondAttribute="leading" constant="41" id="SND-Rk-5tZ"/>
+                        <constraint firstAttribute="trailing" secondItem="zL0-dw-Rgn" secondAttribute="trailing" id="Zcr-lc-c9w"/>
+                        <constraint firstItem="0Fp-NT-3cu" firstAttribute="leading" secondItem="7uK-kC-fuL" secondAttribute="leading" constant="62" id="c18-Bl-JAf"/>
+                        <constraint firstAttribute="bottom" secondItem="0Fp-NT-3cu" secondAttribute="bottom" constant="69.5" id="vXC-cI-RSF"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="7uK-kC-fuL" secondAttribute="bottom" id="26F-qt-1Iq"/>
+                <constraint firstItem="7uK-kC-fuL" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="Fg8-bX-iwB"/>
+                <constraint firstItem="7uK-kC-fuL" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="Jru-Qe-POz"/>
+                <constraint firstItem="7uK-kC-fuL" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="s6B-4k-vJQ"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-15.942028985507248" y="-180.13392857142856"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ImageProgressBar" width="203" height="133"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

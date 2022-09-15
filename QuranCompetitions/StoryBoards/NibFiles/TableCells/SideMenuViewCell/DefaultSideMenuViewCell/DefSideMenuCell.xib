@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DefSideMenuCell" customModule="QuranCompetitions" customModuleProvider="target">
+            <connections>
+                <outlet property="imgBackGround" destination="bAr-vX-pCg" id="7qq-xN-IdS"/>
+                <outlet property="imgBackground2" destination="e5M-La-agh" id="09g-9D-qXE"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DefSideMenuCell" rowHeight="150" id="KGk-i7-Jjw" customClass="DefSideMenuCell" customModule="QuranCompetitions" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="280" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="280" height="150"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BackgroundImage" translatesAutoresizingMaskIntoConstraints="NO" id="bAr-vX-pCg">
+                        <rect key="frame" x="0.0" y="0.0" width="280" height="150"/>
+                    </imageView>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchImage2" translatesAutoresizingMaskIntoConstraints="NO" id="e5M-La-agh">
+                        <rect key="frame" x="97" y="40.5" width="86" height="69"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="69" id="7kn-YD-wqP"/>
+                            <constraint firstAttribute="width" constant="86" id="d8N-yI-Gss"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="bAr-vX-pCg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="9df-X7-pzO"/>
+                    <constraint firstAttribute="bottom" secondItem="bAr-vX-pCg" secondAttribute="bottom" id="XCn-bf-g6Z"/>
+                    <constraint firstItem="e5M-La-agh" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="YUQ-ku-UA3"/>
+                    <constraint firstItem="bAr-vX-pCg" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Ynw-M5-ZCV"/>
+                    <constraint firstAttribute="trailing" secondItem="bAr-vX-pCg" secondAttribute="trailing" id="bOy-of-Xx7"/>
+                    <constraint firstItem="e5M-La-agh" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" id="ojU-Xb-KWY"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <point key="canvasLocation" x="224.63768115942031" y="83.705357142857139"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="BackgroundImage" width="428" height="184"/>
+        <image name="launchImage2" width="133" height="102"/>
+    </resources>
+</document>

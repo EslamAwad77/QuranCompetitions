@@ -12,8 +12,21 @@ class UpdatePersonalPageVC: UIViewController {
     var controller: UpdatePersonalPageController? = UpdatePersonalPageController()
     
     //TODO: Outlets
+    @IBOutlet weak var imgViewPersonal: UIImageView!
+    @IBOutlet weak var txtFieldName: UITextField!
+    @IBOutlet weak var txtFieldEmail: UITextField!
+    @IBOutlet weak var viewCountry: UIView!
+    @IBOutlet weak var lblCountry: UILabel!
     
     //TODO: Actions
+    @IBAction func btnBack(_ sender: UIButton) {
+    }
+    
+    @IBAction func btnCountryListPressed(_ sender: UIButton) {
+    }
+    
+    @IBAction func btnSavePersonalInfo(_ sender: UIButton) {
+    }
     
 }
 
@@ -26,7 +39,8 @@ extension UpdatePersonalPageVC{
 
 extension UpdatePersonalPageVC{
     func setupUI(){
-        
+        viewCountry.addborder(10)
+        imgViewPersonal.roundedImage()
     }
 }
 
